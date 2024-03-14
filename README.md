@@ -1,4 +1,4 @@
-## Esercizio di oggi:
+## Esercizio di oggi: DB University
 Modellizzare la struttura di un database per memorizzare tutti i dati riguardanti una università:
 - sono presenti diversi Dipartimenti (es.: Lettere e Filosofia, Matematica, Ingegneria ecc.);
 - ogni Dipartimento offre più Corsi di Laurea (es.: Civiltà e Letterature Classiche, Informatica, Ingegneria Elettronica ecc..)
@@ -28,3 +28,7 @@ ESEMPIO di consegna nel file .sql :
 
 3. Selezionare tutti gli studenti il cui nome inizia per "E" (373)
 - SELECT * FROM `students` WHERE `name` LIKE 'E%';
+
+## Esercizio di oggi: DB University - Join
+
+Eseguite le query del file allegato sullo stesso database della volta scorsa.
